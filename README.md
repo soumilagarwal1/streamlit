@@ -1,0 +1,1 @@
+This repository contains my experiments with Streamlit apps, where I will use Data Science and Machine Learning tools to create apps that provide an analysis of datasets derived from different sources, the scraping for which also would be done by me.
