@@ -12,7 +12,7 @@ tickerSymbol = 'AAPL'
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
-tickerDf = tickerData.history(period='max')
+tickerDf = tickerData.history(period='3y')
 # Open	High	Low	Close	Volume	Dividends	Stock Splits
 
 st.line_chart(tickerDf.Close)
