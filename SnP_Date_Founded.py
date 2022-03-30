@@ -21,7 +21,7 @@ for index, row in df_final.iterrows():
     
 df_final.index = a
 
-st.line_chart(df_final.Date_Founded)
+st.dataframe(df_final)
 # count = 0
 
 # for at in a:  
